@@ -74,3 +74,49 @@
     filter: grayscale(5);
     filter: sepia(0.5);
 }
+
+
+.ex-9-img {
+    transition: 2s;
+}
+
+.ex-9-img:hover {
+    border-radius: 20px;
+    filter: grayscale(5);
+    filter: sepia(0.5);
+    transform: scale(1.5);
+}
+
+
+.ex-10-icon {
+    animation: rotate 1s linear infinite;
+}
+
+@keyframes rotate {
+    from{
+        transform: rotate(0deg);
+    }
+
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+
+.ex-11-icon:hover {
+    animation: rotate-two 1.5s linear;
+}
+
+@keyframes rotate-two {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    80% {
+        transform: rotate(280deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
