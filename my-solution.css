@@ -1,3 +1,4 @@
+/* Esercizio 1 - quadrato */
 .ex-1-square {
     transition: 2s;
 }
@@ -7,6 +8,7 @@
 }
 
 
+/* Esercizio 2 - quadrato */
 .ex-2-square {
     background-color: red;
     transition: 2s ease-in-out;
@@ -17,6 +19,7 @@
 }
 
 
+/* Esercizio 3 - quadrato */
 .ex-3-square {
     background-color: red;
     transition: 1s;
@@ -27,6 +30,7 @@
 }
 
 
+/* Esercizio 4 - quadrato */
 .ex-4-square {
     background-color: red;
     transition: 1s;
@@ -37,6 +41,7 @@
 }
 
 
+/* Esercizio 5 - quadrato */
 .ex-5-square {
     background-color: red;
     transition: 1s;
@@ -51,11 +56,13 @@
 }
 
 
+/* Esercizio 6 - img */
 .ex-6-img:hover {
     filter: grayscale(100);
 }
 
 
+/* Esercizio 7 - img */
 .ex-7-img {
     transition: 2s;
 }
@@ -65,6 +72,7 @@
 }
 
 
+/* Esercizio 8 - img */
 .ex-8-img {
     transition: 2s;
 }
@@ -76,6 +84,7 @@
 }
 
 
+/* Esercizio 9 - img */
 .ex-9-img {
     transition: 2s;
 }
@@ -88,6 +97,7 @@
 }
 
 
+/* Esercizio 10 - icon */
 .ex-10-icon {
     animation: rotate 1s linear infinite;
 }
@@ -103,6 +113,7 @@
 }
 
 
+/* Esercizio 11 - icon */
 .ex-11-icon:hover {
     animation: rotate-two 1.5s linear;
 }
@@ -122,6 +133,7 @@
 }
 
 
+/* Esercizio 12 - button */
 .ex-12-button:hover .ex-12-top-white {
     animation: border-top-spin 2s linear;
 }
@@ -175,6 +187,7 @@
 }
 
 
+/* Esercizio 13 - button */
 .ex-13-button:hover .ex-13-top-white {
     animation: border-top-spin-inf 2s linear;
 }
