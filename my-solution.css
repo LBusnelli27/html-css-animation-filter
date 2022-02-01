@@ -139,24 +139,16 @@
 }
 
 @keyframes border-top-spin {
-    20% {
-        left: 20%;
+    0% {
+        left: 10%;
     }
 
-    40% {
-        left: 30%;
-    }
-
-    60% {
-        left: 40%;
-    }
-
-    80% {
-        left: 50%;
+    50% {
+        left: 68%;
     }
 
     100% {
-        left: 60%;
+        left: 10%;
     }
 }
 
@@ -165,24 +157,16 @@
 }
 
 @keyframes border-bottom-spin {
-    20% {
-        right: 30%;
+    0% {
+        right: 20%;
     }
 
-    40% {
-        right: 40%;
-    }
-
-    60% {
-        right: 50%;
-    }
-
-    80% {
-        right: 60%;
+    50% {
+        right: 68%;
     }
 
     100% {
-        right: 70%;
+        right: 20%;
     }
 }
 
